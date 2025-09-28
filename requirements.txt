@@ -1,18 +1,61 @@
 # Core Streamlit
-streamlit==1.28.0
-streamlit-option-menu==0.3.6
+streamlit==1.48.1
+streamlit-option-menu==0.4.0
+rich==14.1.0
+markdown-it-py==4.0.0
+mdurl==0.1.2
+Pygments==2.19.2
 
 # Data Science and Machine Learning
-pandas==2.2.2
-numpy==1.26.4
-scikit-learn==1.6.0
+numpy==2.2.6
+pandas==2.3.1
+scikit-learn==1.7.1
+scipy==1.16.1
+joblib==1.5.1
+opt_einsum==3.4.0
 
 # Data Visualization
-plotly==5.15.0
-matplotlib==3.7.1
-seaborn==0.12.2
+matplotlib==3.10.6
+seaborn==0.13.2
+plotly==6.3.0
+pydeck==0.9.1
+altair==5.5.0
+
+# TensorFlow / Deep Learning (if your app uses it)
+tensorflow==2.20.0
+tensorboard==2.20.0
+tensorboard-data-server==0.7.2
+keras==3.11.2
+ml_dtypes==0.5.3
+optree==0.17.0
 
 # Image and file handling
-Pillow==9.4.0
+Pillow==11.3.0
+opencv-python==4.12.0.88
 openpyxl==3.1.2
 xlsxwriter==3.1.2
+mtcnn==1.0.0
+
+# Web frameworks (if using Flask / FastAPI features)
+Flask==3.1.1
+flask-cors==6.0.1
+FastAPI==0.116.1
+uvicorn==0.35.0
+starlette==0.47.2
+
+# Database / Auth (if applicable)
+mysql-connector-python==9.4.0
+mysqlclient==2.2.7
+PyMySQL==1.1.1
+SQLAlchemy==2.0.43
+passlib==1.7.4
+Flask-JWT-Extended==4.7.1
+
+# Utilities
+python-dotenv==1.1.1
+requests==2.32.4
+pytz==2025.2
+tzdata==2025.2
+termcolor==3.1.0
+click==8.2.1
+colorama==0.4.6
